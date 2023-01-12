@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div id="main">
+    <h1>Add information to customer database</h1>
+    <h2>Database: Asiakastietokanta - Table: Asiakastaulu</h2>
+    <form action="connect.php" method="post">
+        <label for="etunimi">Etunimi</label> <br />
+        <input type="text" name="etunimi" id="etunimi" required/> <br /> <br />
+        
+        <label for="sukunimi">Sukunimi</label> <br />
+        <input type="text" name="sukunimi" id="sukunimi" required/> <br /> <br />
+
+        <label for="email">Email</label> <br />
+        <input type="text" name="email" id="email" required/> <br /> <br />
+
+        <label for="osoite">Osoite</label> <br />
+        <input type="text" name="osoite" id="osoite" required/> <br /> <br />
+
+        <label for="postinumero">Postinumero</label> <br />
+        <input type="number" name="postinumero" id="postinumero" required/> <br /> <br />
+
+        <label for="paikkakunta">Paikkakunta</label> <br />
+        <input type="text" name="paikkakunta" id="paikkakunta" required/> <br /> <br />
+
+        <input type="submit" name="submit" id="submit" />
+    </form>
+        </div>
+</body>
+</html>
